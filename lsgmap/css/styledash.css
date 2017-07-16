@@ -1,0 +1,107 @@
+/***** GENERAL *****/
+
+h3 {
+	font-size: 21px;
+}
+
+
+
+/***** Tables d'AJOUT et de LISTE des MARKERS *****/
+
+.lsgmap-table {
+    width: 90%;
+    margin-top: 27px;
+
+	/* -> pallie à un bug d'affichage de la taille de la police (ex : après ajout, modification...) */
+    font-size: 13px;
+
+    border-collapse: collapse;
+}
+
+	.lsgmap-table th {
+		padding-bottom: 10px;
+		
+		font-size: 1.2em;
+		
+		border-left: 1px solid #666;
+		border-right: 1px solid #666;
+	    border-bottom: 1px solid #666;
+	}
+	
+	.lsgmap-table td {
+	    padding: 10px;
+	    border-bottom: 1px solid #666;
+	}
+	.col-mtype {
+		width: 10%;
+		
+		text-align: center;
+	}
+	.col-mtitle {
+		width: 10%;
+
+		text-align: center;
+	}
+	.col-maddress {
+		width: 25%;
+	}
+	.col-mlinkhref {
+		width: 13%;			
+	}
+	.col-mdescription {
+		width: 30%;
+	}
+	.col-maction {
+		width: 12%;
+	}
+	/* -> les champs input sont "flexibles"/responsives */
+	.lsgmap-table input {
+		width: 100%;
+	}
+	/* -> les champs textarea occupent toute la largeur de la colonne, et sont "flexibles"/responsives */
+	.lsgmap-table textarea {
+		width: 100%;
+	}
+
+
+
+/***** Table des REGLAGES/SETTINGS *****/
+
+.lsgmap-settings-table {
+	width: 60%;
+    margin-top: 27px;
+
+	/* -> pallie à un bug d'affichage de la taille de la police (ex : après ajout, modification...) */
+    font-size: 13px;
+
+    border-collapse: collapse;
+}
+	.lsgmap-settings-table th {
+		padding: 6px;
+
+		font-size: 1.2em;
+
+		border-left: 1px solid #666;
+		border-right: 1px solid #666;
+	    border-bottom: 1px solid #666;
+	}
+	.lsgmap-settings-table td {
+	    padding: 5px;
+
+	    border: 1px solid #666;
+	}
+	/* -> les champs input sont "flexibles"/responsives */
+	.lsgmap-settings-table input {
+		width: 100%;
+	}
+
+
+
+/* CSS "Orienté Objet" */
+
+.text-align-center {
+	text-align: center;
+}
+.bold {
+	font-weight: bold;
+}

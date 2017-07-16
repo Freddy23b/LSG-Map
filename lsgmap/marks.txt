@@ -1,0 +1,6 @@
+> Pour le site PROD / en ligne :
+
+	- sur lsgmapwidget.php : ne pas oublier de modifier la clé API.
+	- penser à la MAJ du style.css du Vantage child.
+	- supprimer ou mettre en commentaires les var_dump et console.log
+	  (identifiables par les "@@@").
