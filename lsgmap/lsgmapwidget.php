@@ -127,11 +127,11 @@ foreach ($resultArray as $markerRow)
 //////              2 - CONSTRUCTION CONTENU INFOWINDOWS
 //////              3 - POSITIONNEMENT + AJOUT des MARKERS
 ////                    a - Markers avec LAT ET LNG renseignés
-//                          i   - 
+//                          i   - ITINERAIRE
 //                          ii  - AJOUT markers
 //                          iii - EVENEMENTS au CLIC
 ////                    b - Markers avec LAT ET LNG non renseignés
-//                          i   - 
+//                          i   - ITINERAIRE
 //                          ii  - GEOCODAGE ADRESSE
 //                          iii - AJOUT markers
 //                          iv  - EVENEMENTS au CLIC
